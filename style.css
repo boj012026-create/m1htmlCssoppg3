@@ -109,4 +109,7 @@ img {
 /*id's*/
 #images {
     flex-direction: column;
+    h2 {
+        background: var(--mars-light);  
+    }
 }
