@@ -49,6 +49,11 @@ header {
     background-image: var(--mars-globe); 
     background-size: cover;
     background-position: center;
+    h1 {
+        background-color: var(--mars-transparent);
+        padding: 0.5em 1em;
+        border-radius: 1em;
+    }
 }
 
 body {
