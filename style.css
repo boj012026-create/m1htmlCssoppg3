@@ -45,7 +45,7 @@ h1, h2, h3, p, li {
     border-radius: 0.5em;
 }
 
-/*Header*/
+/*Headers*/
 h1, h2, h3  {
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
@@ -69,6 +69,10 @@ header {
 body {
     color: var(--mars-dark);
     background: var(--mars-shade);
+    /*default font*/
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*classes*/
