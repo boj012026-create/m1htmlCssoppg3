@@ -86,7 +86,8 @@ body {
 
 .page {
     display: flex;
-    background-image: var(--mars-globe); 
+    background-image: var(--mars-globe);
+    background-size: cover; 
     justify-content: space-around;
     scroll-margin-top: var(--header-heigt);/*supposed to fix link nav missalignment*/
     min-height: var(--page-height);    
