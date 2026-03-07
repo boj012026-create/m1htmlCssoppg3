@@ -37,6 +37,19 @@ img, section, header, article {
     box-shadow:  0 0 1em black;
     border-radius: 0 0 40px 0;
 }
+/*readable background*/
+h1, h2, h3, p, li {
+    background: var(--mars-light);
+    padding: 0.2em 1em;
+    border-radius: 0.5em;
+}
+
+/*Header font*/
+h1, h2, h3  {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 header {
     display: flex;
@@ -49,11 +62,6 @@ header {
     background-image: var(--mars-globe); 
     background-size: cover;
     background-position: center;
-    h1 {
-        background-color: var(--mars-transparent);
-        padding: 0.5em 1em;
-        border-radius: 1em;
-    }
 }
 
 body {
@@ -81,7 +89,6 @@ body {
 }
 
 .mars-card {
-    background-color: var(--mars-transparent);
     margin: 2em;
     padding: 1em 2em;
 }
@@ -95,11 +102,7 @@ body {
 }
 
 .img-card {
-    width: 20em;
-    h3 {
-        background: var(--mars-light);   
-    }
-   
+    width: 20em;   
 }
 
 img {
@@ -109,7 +112,4 @@ img {
 /*id's*/
 #images {
     flex-direction: column;
-    h2 {
-        background: var(--mars-light);  
-    }
 }
